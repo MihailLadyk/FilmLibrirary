@@ -1,0 +1,22 @@
+.navbar {
+  padding: 10px;
+  border-bottom:  1px solid #1b1b1b;
+  margin-bottom: 15px;
+}
+
+
+.navbarLink {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbarLink:hover,
+.navbarLink_active {
+    color: #ffaeae;
+}
+
+
+.navbarLink:not(:last-child) {
+    margin-right: 12px;
+}
+
